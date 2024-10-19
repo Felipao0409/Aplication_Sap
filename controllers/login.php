@@ -8,13 +8,13 @@
     if(isset($_POST["id_sap"]) <> '' && $_POST["id_sap"]<> ''){
 
 
-        $sql = "SELECT * FROM id_sap WHERE id_sap='$ids'";
+        $sql = "SELECT * FROM usuario WHERE id_sap='$ids'";
 
         $acceso_usuario=$connect->query($sql);
 
         if($acceso_usuario->num_rows==1)
 
-        header("location: ../views/home.php");
+        header("location: ../views/home.php?id_page=1&id_sap=$ids");
 
         else{
             ?>

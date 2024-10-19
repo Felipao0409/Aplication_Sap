@@ -1,7 +1,60 @@
-body{
+:root {
+    --primary-color: #0070f2;
+    --secondary-color: #6c757d;
+    --background-color: #f8f9fa;
+    --text-color: #333;
+  }
+  body {
+    font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+    background-color: var(--background-color);
+    color: var(--text-color);
+    transition: background-color 0.3s, color 0.3s;
+  }
 
-    background-color: rgb(102, 102, 233);
-    font-size: 1em;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+  .card-home{
 
-}
+    min-height: 300px;
+
+  }
+  .sidebar {
+    height: 100vh;
+    background-color: var(--primary-color) !important;
+    color: white;
+    padding-top: 20px;
+    position: fixed;
+  }
+  .sidebar .nav-link {
+    color: rgba(255, 255, 255, 0.8);
+    margin-bottom: 10px;
+  }
+  .sidebar .nav-link:hover {
+    color: white;
+  }
+  .sidebar .nav-link.active {
+    background-color: rgba(255, 255, 255, 0.1);
+  }
+  .content {
+    padding: 20px;
+  }
+  .table {
+    background-color: white;
+  }
+  .dark-mode {
+    --background-color: #333;
+    --text-color: #f8f9fa;
+  }
+  .dark-mode .table {
+    color: var(--text-color);
+    background-color: #444;
+  }
+  .dark-mode .card {
+    background-color: #444;
+    color: var(--text-color);
+  }
+  #darkModeToggle {
+    cursor: pointer;
+  }
+
+  .users{
+    font-weight: bold;
+  }
