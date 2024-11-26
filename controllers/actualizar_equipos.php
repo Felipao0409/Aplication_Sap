@@ -25,6 +25,8 @@ if ($resultados=false) {
 
     echo "su equipo ha sido Actualizado";
 
+    
+
      
 }
 

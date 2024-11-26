@@ -28,6 +28,7 @@ $resultado=mysqli_query($connect, $consulta);
 
 }
 
+
 echo "😪Generando Ticket...";
 
 ?>

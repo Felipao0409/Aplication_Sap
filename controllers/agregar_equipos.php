@@ -21,7 +21,7 @@ if ($resultados=false) {
 
     echo "el equipo ha sido registrado y guardado";
 
-     
+    
     
     
 }

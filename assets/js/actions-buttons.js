@@ -21,6 +21,8 @@
     icon.className = isDarkMode ? "fas fa-sun" : "fas fa-moon";
   }
 
+  
+
   // Simulated login check (replace with actual authentication in a real app)
 //   const isLoggedIn = localStorage.setItem("isLoggedIn", true);
 //   isLoggedIn = localStorage.getItem("isLoggedIn");

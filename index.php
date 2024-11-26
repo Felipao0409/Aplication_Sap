@@ -69,7 +69,7 @@
     </style> -->
     <style>
       body{
-       /* 
+      /* 
         background-attachment: fixed;
         background-image: url("/assets/img/bg.webp");
         background-position: center;
@@ -84,6 +84,8 @@
         min-height: 100vh;  
         padding: 0;     
       }
+
+      
     </style>
   </head>
   <body>
@@ -159,9 +161,10 @@
                         />
                       </div> -->
                       <div class="d-grid">
-                        <button type="submit" class="btn btn-primary">
-                          Search
-                        </button>
+                        <button type="submit" class="btn btn-primary">Search</button>
+                        <br>
+                        <a href="./views/registro_usuario.php" class="btn btn-success" >create new user</a>
+                        
                       </div>
                     </form>
                   </div>
